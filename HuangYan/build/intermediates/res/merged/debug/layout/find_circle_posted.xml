@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dadada"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head" />
+
+    <EditText
+        android:id="@+id/biaoti"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:hint="请输入14字符以内的标题"
+        android:maxLength="14"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColorHint="#afafaf"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/neirong"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="1px"
+        android:background="#ffffff"
+        android:gravity="top"
+        android:hint="帖子内容..."
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textColorHint="#afafaf"
+        android:textSize="15dp" />
+    
+    <GridView 
+        android:id="@+id/noScrollgridview"
+        android:layout_width="290dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="5dp"
+        android:horizontalSpacing="3dp"        
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp" >
+    </GridView>
+
+</LinearLayout><!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/layout/find_circle_posted.xml -->

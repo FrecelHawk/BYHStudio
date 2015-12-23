@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 评优 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/desktop"
+        layout="@layout/desktop" />
+
+    <Button
+        android:id="@+id/pingyou_tijiao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/btn_common_selector"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/pingyou_tijiao"
+        android:layout_below="@id/desktop"
+        android:scrollbars="none"
+        android:padding="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_py1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="1、厨房的卫生状况是否满意"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_py1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb11"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb12"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/no"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb13"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingRight="20dp"
+                    android:text="@string/donot_know"
+                    android:textColor="@color/grgray" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="328dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_bg" />
+
+            <TextView
+                android:id="@+id/tv_py2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="2、食品来源是否清楚"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_py2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb21"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb22"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/no"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb23"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingRight="20dp"
+                    android:text="@string/donot_know"
+                    android:textColor="@color/grgray" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="328dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_bg" />
+
+            <TextView
+                android:id="@+id/tv_py3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="3、餐厅执照是否悬挂公示"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_py3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb31"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb32"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/no"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb33"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingRight="20dp"
+                    android:text="@string/donot_know"
+                    android:textColor="@color/grgray" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="328dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_bg" />
+
+            <TextView
+                android:id="@+id/tv_py4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="4、厨房员工是否违规操作，如抽烟、未穿工作服等"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_py4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb41"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb42"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/no"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb43"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingRight="20dp"
+                    android:text="@string/donot_know"
+                    android:textColor="@color/grgray" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="328dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_bg" />
+
+            <TextView
+                android:id="@+id/tv_py5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="5、餐饮器具是否干净"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_py5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb51"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb52"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/no"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb53"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingRight="20dp"
+                    android:text="@string/donot_know"
+                    android:textColor="@color/grgray" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="328dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_bg" />
+
+            <TextView
+                android:id="@+id/tv_py6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="6、厨房、大堂环境是否干净整洁，无积水、污垢等"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_py6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb61"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb62"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/no"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb63"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingRight="20dp"
+                    android:text="@string/donot_know"
+                    android:textColor="@color/grgray" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="328dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_bg" />
+
+            <TextView
+                android:id="@+id/tv_py7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="7、食物是否干净、没有变质等"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_py7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb71"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb72"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/no"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb73"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingRight="20dp"
+                    android:text="@string/donot_know"
+                    android:textColor="@color/grgray" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="328dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/common_bg" />
+
+            <TextView
+                android:id="@+id/tv_py8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="8、厨房、大堂是否有发现昆虫老鼠、蜘蛛网等"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_py8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb81"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb82"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:paddingRight="20dp"
+                    android:text="@string/no"
+                    android:textColor="@color/grgray" />
+
+                <RadioButton
+                    android:id="@+id/rb83"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:paddingRight="20dp"
+                    android:text="@string/donot_know"
+                    android:textColor="@color/grgray" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

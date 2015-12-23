@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+      <!-- Light Theme-->
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    
+    
+    <style name="customDialog" parent="Dialog">
+        <item name="negativeColor">#000000</item>
+        <item name="positiveColor">#000000</item>
+    </style>
+    
+    
+    <style name="singleDialog" parent="Dialog">
+        <item name="android:windowBackground">@drawable/single_button_background</item>
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+    </style>
+    
+    
+    <style name="AnimBottom" parent="@style/singleDialog">
+        <item name="android:windowEnterAnimation">@anim/slide_bottom_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom_out_top</item>
+    </style>
+    
+    
+    <style name="loadingDialog" >
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+         <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    
+</resources>

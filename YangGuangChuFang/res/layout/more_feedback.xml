@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/dissident_top_layout"
+        layout="@layout/desktop" />
+
+    <LinearLayout
+        android:id="@+id/dissident_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dissident_top_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            style="@style/editTextViewStyle"
+            android:text="联系方式" />
+
+        <EditText
+            android:id="@+id/contact_mess"
+            style="@style/editTextStyle"
+            android:hint="邮箱或手机号码"
+            android:textCursorDrawable="@null" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/returndetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/dissident_layout"
+        android:layout_below="@id/dissident_layout"
+        android:layout_marginTop="20dp"
+        android:text="请提交你的意见："
+        android:textSize="16dp" />
+
+    <!-- <EditText
+        android:id="@+id/content_eidt"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/returndetails"
+        android:background="@drawable/bg_my_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" /> -->
+    
+     <EditText
+        android:id="@+id/content_eidt"
+        style="@style/editTextStyle"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/returndetails"
+        android:background="@drawable/bg_my_input"
+        android:cursorVisible="true"
+        android:gravity="top"
+        android:lines="6"
+        android:singleLine="false"
+        android:textCursorDrawable="@null"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/submit_feedback"
+        style="@style/MyButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:text="提交" />
+
+</RelativeLayout>

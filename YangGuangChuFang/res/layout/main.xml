@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/connectionless_network" />
+
+    <LinearLayout
+        android:id="@+id/ll_conn_networt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/fragment_home"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.xyt.ygcf.ui.HomeFragment" />
+
+        <fragment
+            android:id="@+id/fragment_nearby"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.xyt.ygcf.ui.NearbyFragment" />
+
+        <fragment
+            android:id="@+id/fragment_search"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.xyt.ygcf.ui.SearchFragment" />
+
+        <fragment
+            android:id="@+id/fragment_my"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.xyt.ygcf.ui.MyFragment" />
+
+        <fragment
+            android:id="@+id/fragment_more"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.xyt.ygcf.ui.MoreFragment" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#cacaca" />
+
+        <com.xyt.ygcf.ui.FragmentIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#f1f1f1"
+            android:paddingBottom="5dp"
+            android:paddingTop="7dp" />
+    </LinearLayout>
+
+</LinearLayout>

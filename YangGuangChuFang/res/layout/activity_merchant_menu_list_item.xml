@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_list_item_selector"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <RatingBar
+            android:id="@+id/menu_list_grade"
+            style="@style/SmallRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:isIndicator="true"
+            android:rating="5" />
+
+        <TextView
+            android:id="@+id/groad_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@id/menu_list_grade"
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:textColor="@color/datails_text_color"
+            android:text="推荐度：" />
+
+        <TextView
+            android:id="@+id/menu_list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/groad_text"
+            android:singleLine="true"
+            android:text="酸菜鱼"
+            android:textColor="#6A6A6A"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/menu_list_current_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="￥60"
+        android:textColor="@color/orange"
+        android:textSize="16sp" />
+
+</LinearLayout>

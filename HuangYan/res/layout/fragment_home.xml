@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp" >
+
+        <com.baiyuhui.huangyan.view.CustomizeViewpageView
+            android:id="@+id/home_viewpage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent" >
+        </com.baiyuhui.huangyan.view.CustomizeViewpageView>
+
+        <LinearLayout
+            android:id="@+id/home_dot_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="11dp"
+        android:paddingTop="11dp" >
+
+        <Button
+            android:id="@+id/news_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/news"
+            android:gravity="center_horizontal"
+            android:text="新闻"
+            android:textColor="#5e5e5e"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/video_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/video"
+            android:gravity="center_horizontal"
+            android:text="视频"
+            android:textColor="#5e5e5e"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/benefit_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:checked="true"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/love"
+            android:gravity="center_horizontal"
+            android:text="公益"
+            android:textColor="#5e5e5e"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/school_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/school"
+            android:gravity="center_horizontal"
+            android:text="学堂"
+            android:textColor="#5e5e5e"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/branch_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/branch"
+            android:gravity="center_horizontal"
+            android:text="分支"
+            android:textColor="#5e5e5e"
+            android:textSize="11dp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_list_bj"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#dadada" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hot"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/headline" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#dadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_remen_color"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="热门"
+            android:textColor="#da0d15"
+            android:textSize="10dp" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:scrollbars="vertical"
+                    android:text="专业数据澄清燕窝导致性早熟"
+                    android:textColor="#333333"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+         >
+
+        <ListView
+            android:id="@+id/home_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

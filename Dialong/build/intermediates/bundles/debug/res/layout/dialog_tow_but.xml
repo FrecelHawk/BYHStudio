@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialog_button_height"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+    <Button
+        android:id="@+id/left_button"
+        style="@style/Button.Theme"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:padding="@dimen/dialog_button_padding"
+        android:paddingTop="10dp"
+        android:text="cancle"
+        android:textSize="@dimen/dialog_button_text_size"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:background="@color/dialog_gray" />
+
+    <Button
+        android:id="@+id/right_button"
+        style="@style/Button.Theme"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:padding="@dimen/dialog_button_padding"
+        android:paddingTop="10dp"
+        android:text="Ok"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/dialog_button_text_size"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded,HardcodedText" />
+
+</LinearLayout><!-- From: file:/C:/ecpliseWork/Dialong/res/layout/dialog_tow_but.xml -->

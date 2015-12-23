@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItem1Style" >
+
+    <RelativeLayout style="@style/ListItem2Style" >
+
+        <ImageView
+            android:id="@+id/evaluate_feedback_item_img"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_load_defalut" />
+
+        <RelativeLayout
+            android:id="@+id/evaluate_feedback_item_name_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/common_my_list_item_delete"
+            android:layout_toRightOf="@+id/evaluate_feedback_item_img" >
+
+            <TextView
+                android:id="@+id/evaluate_feedback_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="暨南大学"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/evaluate_feedback_item_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:layout_toRightOf="@+id/evaluate_feedback_item_name"
+                android:background="@drawable/ic_news_dot"
+                android:contentDescription="@null"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/common_my_list_item_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_delete_selector" />
+
+        <TextView
+            android:id="@+id/evaluate_feedback_item_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/evaluate_feedback_item_name_layout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/evaluate_feedback_item_img"
+            android:text="大学食堂"
+            android:textColor="#888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/evaluate_feedback_item_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/evaluate_feedback_item_type"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/evaluate_feedback_item_img"
+            android:singleLine="true"
+            android:text="每餐搭配很合理，很营养的午餐"
+            android:textColor="@color/fda965"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

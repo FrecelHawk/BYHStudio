@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    
+    <item android:drawable="@color/top_left" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@color/title_red"/>
+</selector><!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/drawable/login_btn_bj.xml -->

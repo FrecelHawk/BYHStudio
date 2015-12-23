@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+            </LinearLayout>
+    
+
+</LinearLayout>
+<!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/layout/text2.xml -->

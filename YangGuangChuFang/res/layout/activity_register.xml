@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/desktop" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp" >
+
+            <include layout="@layout/view_my_login_header" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp" >
+
+                <EditText
+                    android:id="@+id/activity_register_phone"
+                    style="@style/editTextStyle"
+                    android:cursorVisible="true"
+                    android:hint="手机号码"
+                    android:visibility="gone"
+                    android:textCursorDrawable="@null" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="15dp" >
+
+                    <TextView
+                        android:id="@+id/activity_register_verify_btn"
+                        style="@style/editTextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/btn_common_selector"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="获取验证码"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/activity_register_verify"
+                        style="@style/editTextStyle"
+                        android:layout_marginLeft="10dp"
+                        android:cursorVisible="true"
+                        android:hint="验证码"
+                        android:textCursorDrawable="@null" />
+                </LinearLayout>
+
+                 <EditText
+                    android:id="@+id/activity_register_email"
+                    style="@style/editTextStyle"
+                    android:cursorVisible="true"
+                    android:hint="邮箱"
+                    android:textCursorDrawable="@null" />
+                 
+                <EditText
+                    android:id="@+id/activity_register_nickname"
+                    style="@style/editTextStyle"
+                    android:layout_marginTop="15dp"
+                    android:cursorVisible="true"
+                    android:hint="昵称"
+                    android:maxLength="10"
+                    android:textCursorDrawable="@null" />
+
+                <EditText
+                    android:id="@+id/activity_register_password"
+                    style="@style/editTextStyle"
+                    android:layout_marginTop="15dp"
+                    android:cursorVisible="true"
+                    android:digits="@string/password_char"
+                    android:hint="密码"
+                    android:maxLength="20"
+                    android:password="true"
+                    android:textCursorDrawable="@null" />
+
+                <EditText
+                    android:id="@+id/activity_register_password_2"
+                    style="@style/editTextStyle"
+                    android:layout_marginTop="15dp"
+                    android:cursorVisible="true"
+                    android:digits="@string/password_char"
+                    android:hint="确认密码"
+                    android:maxLength="20"
+                    android:password="true"
+                    android:textCursorDrawable="@null" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp" >
+
+                    <CheckBox
+                        android:id="@+id/activity_register_checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/checkbox_common_selector"
+                        android:checked="true" />
+
+                    <TextView
+                        android:id="@+id/activity_register_protocol_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center_vertical"
+                        android:text="我已看过并同意"
+                        android:textColor="#666666"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/activity_register_protocol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center_vertical"
+                        android:text="《用户使用协议》"
+                        android:textColor="@color/yelllow_left"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/activity_register_commit"
+                    style="@style/MyButtonStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="确认" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head" />
+
+    <ImageView
+        android:id="@+id/circle_viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/quanzi" />
+
+    <ListView
+        android:id="@+id/circle_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" >
+    </ListView>
+
+</LinearLayout><!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/layout/find_circle.xml -->

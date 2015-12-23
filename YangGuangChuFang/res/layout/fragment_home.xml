@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee" >
+
+    <include
+        android:id="@+id/body"
+        layout="@layout/desktop" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/home_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_below="@id/body" >
+
+            <com.xyt.ygcf.widget.AbScrollView
+                android:id="@+id/home_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fadingEdge="none"
+                android:fadingEdgeLength="0dp"
+                android:overScrollMode="never"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp" >
+
+                        <RelativeLayout
+                            android:id="@+id/view_pager_content"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical" />
+
+                        <LinearLayout
+                            android:id="@+id/viewGroup"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <com.xyt.ygcf.widget.MyListView
+                        android:id="@+id/home_list"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:divider="#eeeeee"
+                        android:dividerHeight="5dp" >
+                    </com.xyt.ygcf.widget.MyListView>
+                </LinearLayout>
+            </com.xyt.ygcf.widget.AbScrollView>
+
+        <include layout="@layout/home_city_drawer" />
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/shape"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Button.Theme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_button_height"
+        android:textSize="@dimen/dialog_button_text_size"
+        android:text="single"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 透明鲜蓝色 -->
+    <color name="bg_color_trans">#EEDDDDDD</color>
+    <!-- 鲜蓝色 -->
+    <!-- <color name="fresh_blue">#CC376BB6</color> -->
+    <color name="bg_color_fresh">#FFCCCCCC</color>
+    <!-- 深鲜蓝色 -->
+    <!-- <color name="navy_fresh_blue">#CC376BB6</color> -->
+    <color name="bg_color_navy">#EED1D1D1</color>
+    <color name="pure_green">#19b515</color>
+    <color name="luminous_bright_orange">#ff8400</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey_white">#f8f8f4</color>
+    <color name="line_grey">#ecece1</color>
+    <color name="line_green">#169812</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="yelllow">#FFFF00</color>
+    <color name="yelllow_left">#FF8400</color>
+    <color name="green">#00FF00</color>
+    <color name="Convertview2">#f7fef5</color>
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+    <color name="lvDesc">#3d3d3d</color>
+    <color name="lvDesc2">#999999</color>
+    <color name="form_edt_bg_color">#f8fbf6</color>
+    <color name="status_cancel">#7f7f7f</color>
+    <!-- 透明色调 -->
+    <color name="dialog_bg">#80FFFFFF</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+     <color name="orange">#f88625</color>
+
+    <!-- 已取消 -->
+    <color name="status_complete">#11bb00</color>
+    <!-- 已完成 -->
+    <color name="status_sync_ing">#00aacc</color>
+    <!-- 同步中 -->
+    <color name="status_unconfirm">#996611</color>
+    <!-- 待确认 -->
+    <color name="status_failed">#cc1111</color>
+    <!-- 分享失败 -->
+    <!-- zxing -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff00ff00</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="control_back">#AA00003D</color>
+    
+    <color name="gray">#DCDCDC</color>
+    <color name="aurantium">#FFAB17</color>
+
+    <!-- 首页 城市选择 -->
+    <color name="home_default_text">#939393</color>
+    <color name="home_city_text">#717171</color>
+
+    <!-- 阳光厨房 -->
+    <color name="pop_text">#6b6b6b</color>
+    <color name="pop_bg">#DCDCDC</color>
+    
+    <color name="my_pager_color_1">#D8D8D8</color>
+    <color name="my_pager_color_2">#F88625</color>
+    <color name="common_bg">#EEEEEE</color>
+    <color name="fda965">#FDA965</color>
+    <color name="fe3235">#FE3235</color>
+    <color name="dadada">#DADADA</color>
+    <color name="f2f2f2">#F2F2F2</color>
+    <color name="cbcbcb">#CBCBCB</color>
+    <color name="datails_text_color">#838383</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dialong/Dialong.iml" filepath="$PROJECT_DIR$/Dialong/Dialong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HuangYan/HuangYan.iml" filepath="$PROJECT_DIR$/HuangYan/HuangYan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/byh.iml" filepath="$PROJECT_DIR$/byh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xtuils/xtuils.iml" filepath="$PROJECT_DIR$/xtuils/xtuils.iml" />
+    </modules>
+  </component>
+</project>

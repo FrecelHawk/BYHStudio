@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItem1Style" >
+
+    <RelativeLayout style="@style/ListItem2Style" >
+
+        <ImageView
+            android:id="@+id/collection_canteen_item_img"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_load_defalut" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/collection_canteen_item_img"
+            android:layout_alignTop="@+id/collection_canteen_item_img"
+            android:layout_toRightOf="@+id/collection_canteen_item_img"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.0" >
+
+                <TextView
+                    android:id="@+id/collection_canteen_item_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/common_my_list_item_delete"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="洞庭鱼头王"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/common_my_list_item_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/btn_delete_selector"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/collection_canteen_item_type"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.0"
+                android:drawableLeft="@drawable/ic_my_collection_food"
+                android:drawablePadding="2dp"
+                android:gravity="center_vertical"
+                android:text="西冷牛排"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/collection_canteen_item_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/collection_canteen_item_distance"
+                    android:drawableLeft="@drawable/ic_my_collection_map"
+                    android:drawablePadding="2dp"
+                    android:ellipsize="end"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="黄埔大道西668号"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/collection_canteen_item_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="400m"
+                    android:textColor="#888888"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

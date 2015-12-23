@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/desktop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editTextViewStyle"
+                    android:text="姓名" />
+
+                <EditText
+                    android:id="@+id/activity_modify_name"
+                    style="@style/editTextStyle"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editTextViewStyle"
+                    android:text="电话" />
+
+                <EditText
+                    android:id="@+id/activity_modify_phone"
+                    style="@style/editTextStyle"
+                    android:inputType="number"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_modify_province_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_my_input"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/activity_modify_province_tv"
+                    style="@style/editTextViewStyle"
+                    android:layout_alignBottom="@+id/activity_modify_province"
+                    android:layout_alignTop="@+id/activity_modify_province"
+                    android:text="省份" />
+
+                <TextView
+                    android:id="@+id/activity_modify_province"
+                    style="@style/editTextStyle"
+                    android:layout_toLeftOf="@+id/activity_modify_province_img"
+                    android:layout_toRightOf="@+id/activity_modify_province_tv"
+                    android:textCursorDrawable="@null" />
+
+                <ImageView
+                    android:id="@+id/activity_modify_province_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_my_address_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_modify_city_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_my_input"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/activity_modify_city_tv"
+                    style="@style/editTextViewStyle"
+                    android:layout_alignBottom="@+id/activity_modify_city"
+                    android:layout_alignTop="@+id/activity_modify_city"
+                    android:text="城市" />
+
+                <TextView
+                    android:id="@+id/activity_modify_city"
+                    style="@style/editTextStyle"
+                    android:layout_toLeftOf="@+id/activity_modify_city_img"
+                    android:layout_toRightOf="@+id/activity_modify_city_tv"
+                    android:textCursorDrawable="@null" />
+
+                <ImageView
+                    android:id="@+id/activity_modify_city_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_my_address_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_modify_country_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_my_input"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/activity_modify_country_tv"
+                    style="@style/editTextViewStyle"
+                    android:layout_alignBottom="@+id/activity_modify_country"
+                    android:layout_alignTop="@+id/activity_modify_country"
+                    android:text="区县" />
+
+                <TextView
+                    android:id="@+id/activity_modify_country"
+                    style="@style/editTextStyle"
+                    android:layout_toLeftOf="@+id/activity_modify_country_img"
+                    android:layout_toRightOf="@+id/activity_modify_country_tv"
+                    android:textCursorDrawable="@null" />
+
+                <ImageView
+                    android:id="@+id/activity_modify_country_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_my_address_arrow" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editTextViewStyle"
+                    android:text="地址" />
+
+                <EditText
+                    android:id="@+id/activity_modify_address"
+                    style="@style/editTextStyle"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/editTextViewStyle"
+                    android:text="邮编" />
+
+                <EditText
+                    android:id="@+id/activity_modify_postcode"
+                    style="@style/editTextStyle"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/activity_mofify_address_btn"
+                style="@style/MyButtonStyle"
+                android:layout_marginTop="20dp"
+                android:text="保存" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

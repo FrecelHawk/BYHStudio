@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/xiangqing"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:text="商品详情"
+                android:textColor="@color/gamboge"
+                android:textSize="14dp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/gamboge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/pingjia"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:text="评价"
+                android:textSize="14dp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/gamboge"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/qingdan"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:text="包装清单"
+                android:textSize="14dp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/gamboge"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="        那么，如果不是欧战结束，美苏军力东移，美军在太平洋战场上从战术性突破到战略性胜利，并相继向日本投掷两枚核武器，摧毁广岛长崎，重创日本将战争继续下去的决心和信心。苏联发动对关东军的全线进攻，彻底粉碎日方同苏联单独媾和，由苏联调停太平洋战争的念想。中国军队要单独实现对日战争的胜利，恐仍需很长一段时间。"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

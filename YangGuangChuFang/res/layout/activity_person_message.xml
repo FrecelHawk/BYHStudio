@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/desktop" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/view_my_login_header" />
+
+            <LinearLayout
+                android:id="@+id/activity_person_layout_name"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    android:id="@+id/activity_person_tv_name"
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/ic_my_person_center"
+                    android:text="名字很难想像" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_person_layout_password"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/ic_my_password"
+                    android:text="修改密码" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_person_layout_phone"
+                android:visibility="gone"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    android:id="@+id/activity_person_tv_phone"
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/ic_my_phone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_person_layout_emial"
+                android:visibility="gone"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    android:id="@+id/activity_person_tv_emial"
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/ic_my_email"
+                    android:text="完善邮箱" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_person_layout_address"
+                android:visibility="gone"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    android:id="@+id/activity_person_tv_address"
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/ic_my_address"
+                    android:text="完善地址" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

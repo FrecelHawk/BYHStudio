@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.dyne.homeca.gd"
+    android:id="@+id/frame"
+    android:background="@color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <SurfaceView
+                android:id="@+id/window"
+                android:layout_width="320dp"
+                android:layout_height="240dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:tag="加载视频……" />
+
+    <Button
+        android:id="@+id/screenshot"
+        android:layout_width="150dp"
+        android:layout_height="50sp"
+        android:textSize="30sp"
+        android:layout_below="@+id/window"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="100dp"
+        android:text="截屏"
+        android:textColor="@color/white" />
+"
+</RelativeLayout>

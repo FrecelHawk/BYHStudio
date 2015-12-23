@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:text="1. 每月只能提交一次提现申请，若已提现成功，将不能再次提交申请，若审核未通过，可以编辑金额后再次提交申请。"
+            android:textColor="#1f1f1f"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:paddingTop="25dp"
+            android:text="2. 按照国家税务规定， 每次提现，扣除提现金额的20%用于缴纳个人所得税，扣除后的金额为转账到用户银行账号的实际金额。"
+            android:textColor="#1f1f1f"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:paddingTop="25dp"
+            android:text="
+3. 如果身份证号码与开户人身份证不一致，会导致无法成功提现，请仔细填写。"
+            android:textColor="#1f1f1f"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:paddingTop="25dp"
+            android:text="4. 如果有未处理完成的提现记录，则无法使用分红余额进行订单支付。"
+            android:textColor="#1f1f1f"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/layout/sidebar_management_notes.xml -->

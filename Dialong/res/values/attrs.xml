@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="styleDialog">
+        <attr name="messageColor" format="color|reference"/>
+        <attr name="negativeColor" format="color|reference"/>
+        <attr name="positiveColor" format="color|reference"/>
+        <attr name="titleColor" format="color|reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp" >
+
+        <ImageView
+            android:id="@+id/find_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/faxian" />
+
+        <LinearLayout
+            android:id="@+id/find_dot_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="13dp" >
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/circle_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="11dp"
+                android:drawableTop="@drawable/circle"
+                android:gravity="center_horizontal"
+                android:text="圈子"
+                android:textColor="#5e5e5e"
+                android:textSize="11dp"
+                android:typeface="sans" />
+
+            <RadioButton
+                android:id="@+id/story_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="11dp"
+                android:drawableTop="@drawable/story"
+                android:gravity="center_horizontal"
+                android:text="故事"
+                android:textColor="#5e5e5e"
+                android:textSize="11dp"
+                android:typeface="sans" />
+
+            <RadioButton
+                android:id="@+id/prep_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="11dp"
+                android:drawableTop="@drawable/prep"
+                android:gravity="center_horizontal"
+                android:text="关于我们"
+                android:textColor="#5e5e5e"
+                android:textSize="11dp"
+                android:typeface="sans" />
+
+            <RadioButton
+                android:id="@+id/newbie_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="11dp"
+                android:drawableTop="@drawable/newbie"
+                android:gravity="center_horizontal"
+                android:text="新手指南"
+                android:textColor="#5e5e5e"
+                android:textSize="11dp"
+                android:typeface="sans" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="13dp" >
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawablePadding="11dp"
+                android:drawableTop="@drawable/radio"
+                android:gravity="center_horizontal"
+                android:text="电台"
+                android:textColor="#5e5e5e"
+                android:textSize="11dp"
+                android:typeface="sans" 
+                android:visibility="invisible"
+                />
+
+            <RadioButton
+                android:id="@+id/antifake_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="11dp"
+                android:drawableTop="@drawable/antifake"
+                android:gravity="center_horizontal"
+                android:text="防伪"
+                android:textColor="#5e5e5e"
+                android:textSize="11dp"
+                android:visibility="invisible"
+                android:typeface="sans" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center_horizontal" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center_horizontal" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/layout/fragment_find.xml -->

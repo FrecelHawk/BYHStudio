@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="2dp" />
+    <solid android:color="@color/pressed_light" />
+</shape><!-- From: file:/C:/ecpliseWork/Dialong/res/drawable/button_pressed.xml --><!-- From: file:/C:/ecpliseWork/Dialong/build/intermediates/bundles/debug/res/drawable/button_pressed.xml -->

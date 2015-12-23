@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head"/>
+    
+    <RelativeLayout
+        android:id="@+id/fenlei"
+        android:layout_width="fill_parent"
+        android:layout_height="82dp"
+        android:layout_marginBottom="1px"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/circle_list_item_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/circle_list_item_img"
+            android:text="标题"
+            android:textColor="#121212"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/View1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/circle_list_item_img"
+            android:text="帖子"
+            android:textColor="#7a7a7a"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/View2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/View1"
+            android:text="11111"
+            android:textColor="#b99b21"
+            android:textSize="13dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="圈子介绍："
+            android:textColor="#121212"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/cicle_introduce"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="啊；发顺丰噶按时啊沙发沙发沙发阿asdgsfgasgasserhweh 啊是噶问噶伟哥过温泉谷个人凡达阿凡达啊发沙发沙发沙发啊大煞风景覅哦哎"
+            android:textColor="#929292"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/adout_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+    </ListView>
+
+</LinearLayout>

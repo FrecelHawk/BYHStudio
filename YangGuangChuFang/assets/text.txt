@@ -1,0 +1,2 @@
+HOST=http://d.x-eyess.com
+GET_URL_MAP=/api/getUrlMap

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head" />
+
+    <LinearLayout
+        android:id="@+id/xuanze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+             >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国招商银行(尾号4065)"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/img_toux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="#eeeeee"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="可提现金额25141.56元"
+        android:textColor="#929292"
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/shenfz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身份证号码"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/shenfz"
+                android:background="#ffffff"
+                android:hint="请输入身份证号码"
+                android:paddingRight="10dp"
+                android:textColorHint="#cccccc"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#dadada" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/jine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="金额"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/jine"
+                android:background="#ffffff"
+                android:hint="请输入提现金额"
+                android:paddingRight="10dp"
+                android:textColorHint="#cccccc"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#dadada" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/mima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/mima"
+                android:background="#ffffff"
+                android:hint="请输入用户密码"
+                android:paddingRight="10dp"
+                android:textColorHint="#cccccc"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="#eeeeee"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="每月最多提现1次"
+        android:textColor="#929292"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/tixian_but"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/item_button_yuanjiao"
+        android:text="确认提现"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+</LinearLayout>

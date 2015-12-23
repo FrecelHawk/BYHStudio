@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item android:state_checked="true" android:color="#BE9A30"/>
+    <!-- not selected -->
+    <item android:color="#929292"/>
+
+</selector>
+<!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/drawable/item_button_text_bg.xml -->

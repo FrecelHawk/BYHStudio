@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItem1Style" >
+
+    <RelativeLayout style="@style/ListItem2Style" >
+
+        <TextView
+            android:id="@+id/complain_list_item_order_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单号："
+            android:textColor="#888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/complain_list_item_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/complain_list_item_order_pre"
+            android:text="20140325000001"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/complain_list_item_shop_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/complain_list_item_order_pre"
+            android:layout_marginTop="7dp"
+            android:text="被投诉商家："
+            android:textColor="#888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/complain_list_item_shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/complain_list_item_order"
+            android:layout_marginTop="7dp"
+            android:layout_toLeftOf="@+id/complain_list_item_no"
+            android:layout_toRightOf="@+id/complain_list_item_shop_pre"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/complain_list_item_content_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/complain_list_item_shop_pre"
+            android:layout_marginTop="7dp"
+            android:text="投诉内容："
+            android:textColor="#888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/complain_list_item_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/complain_list_item_shop"
+            android:layout_marginTop="7dp"
+            android:layout_toLeftOf="@+id/complain_list_item_no"
+            android:layout_toRightOf="@+id/complain_list_item_content_pre"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/complain_list_item_state_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/complain_list_item_content_pre"
+            android:layout_marginTop="7dp"
+            android:text="状态："
+            android:visibility="gone"
+            android:textColor="#888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/complain_list_item_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/complain_list_item_content"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/complain_list_item_state_pre"
+            android:textColor="@color/yelllow_left"
+            android:visibility="gone"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/complain_list_item_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_complain_cancel_selector"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</LinearLayout>

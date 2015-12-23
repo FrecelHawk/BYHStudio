@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res"><file name="slide_bottom_in_top" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\anim\slide_bottom_in_top.xml" qualifiers="" type="anim"/><file name="slide_bottom_out_top" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\anim\slide_bottom_out_top.xml" qualifiers="" type="anim"/><file name="background" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\drawable\background.xml" qualifiers="" type="drawable"/><file name="button_pressed" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\drawable\button_pressed.xml" qualifiers="" type="drawable"/><file name="shape" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\drawable\shape.xml" qualifiers="" type="drawable"/><file name="single_button_background" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\drawable\single_button_background.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="dialog_custom" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\layout\dialog_custom.xml" qualifiers="" type="layout"/><file name="dialog_loading" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\layout\dialog_loading.xml" qualifiers="" type="layout"/><file name="dialog_message" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\layout\dialog_message.xml" qualifiers="" type="layout"/><file name="dialog_single_but" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\layout\dialog_single_but.xml" qualifiers="" type="layout"/><file name="dialog_single_button_layout" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\layout\dialog_single_button_layout.xml" qualifiers="" type="layout"/><file name="dialog_title" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\layout\dialog_title.xml" qualifiers="" type="layout"/><file name="dialog_tow_but" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\layout\dialog_tow_but.xml" qualifiers="" type="layout"/><file name="main" path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\layout\main.xml" qualifiers="" type="layout"/><file path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\values\values.xml" qualifiers=""><dimen name="dialog_button_text_size">16.0sp</dimen><style name="LinearLayout.vertical" parent="BaseLayout">
+          <item name="android:orientation">vertical</item>
+    </style><color name="text_primary_light">#DE000000</color><dimen name="dialog_error_message_text_size">15.0sp</dimen><style name="customDialog" parent="Dialog">
+        <item name="negativeColor">#000000</item>
+        <item name="positiveColor">#000000</item>
+    </style><dimen name="dialog_padding">10.0dip</dimen><string name="title">title</string><color name="background_light">#FFEEEEEE</color><dimen name="dialog_message_text_size">15.0sp</dimen><color name="dialog_gray">#DBDBDB</color><dimen name="dialog_button_height">50dp</dimen><declare-styleable name="styleDialog"><attr format="color|reference" name="messageColor"/><attr format="color|reference" name="negativeColor"/><attr format="color|reference" name="positiveColor"/><attr format="color|reference" name="titleColor"/></declare-styleable><color name="black">#000000</color><dimen name="dialog_title_text_size">16.0sp</dimen><string name="this_is_a_test_message">This is a test message</string><dimen name="dialog_offset">50dp</dimen><style name="Button"/><style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@drawable/background</item>
+    </style><style name="AnimBottom" parent="@style/singleDialog">
+        <item name="android:windowEnterAnimation">@anim/slide_bottom_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom_out_top</item>
+    </style><style name="singleDialog" parent="Dialog">
+        <item name="android:windowBackground">@drawable/single_button_background</item>
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+    </style><style name="LinearLayout.horizontal" parent="BaseLayout">
+          <item name="android:orientation">horizontal</item>
+    </style><style name="BaseLayout.wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="loadingDialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+         <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style><style name="BaseLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style><color name="oranger">#FE794B</color><style name="Button.Theme" parent="@style/Button">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">match_parent</item>
+    </style><string name="app_name">Dialong</string><color name="pressed_light">#29000000</color><dimen name="dialog_error_title_text_size">17.0sp</dimen><color name="blue">#3B95D3</color><dimen name="dialog_title_divider_height">1.0dip</dimen><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><color name="gray">#DBDBDB</color><dimen name="dialog_button_padding">10.0dip</dimen><style name="AppBaseTheme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\values-v11\values-v11.xml" qualifiers="v11"><style name="AppBaseTheme">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="C:\ecpliseWork\Dialong\build\intermediates\bundles\debug\res\values-v14\values-v14.xml" qualifiers="v14"><style name="AppBaseTheme">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source></dataSet><dataSet config="main"><source path="C:\ecpliseWork\Dialong\src\androidTest\res"/><source path="C:\ecpliseWork\Dialong\build\generated\res\rs\androidTest\debug"/><source path="C:\ecpliseWork\Dialong\build\generated\res\resValues\androidTest\debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="styleDialog"><attr format="color|reference" name="messageColor"/><attr format="color|reference" name="negativeColor"/><attr format="color|reference" name="positiveColor"/><attr format="color|reference" name="titleColor"/></declare-styleable></configuration></mergedItems></merger>

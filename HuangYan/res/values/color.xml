@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red_mini_text">#d9d9d9</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 点击色 -->
+    <color name="list_bj">#f3f3f3</color>
+    <!-- 标题栏背景 -->
+    <color name="title_red">#b99b21</color>
+    <!-- 左边背景深红色 -->
+    <color name="top_left">#330000</color>
+    <color name="text_cyan">#4ac6c2</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 黄色 -->
+    <color name="gamboge">#b99b21</color>
+    
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

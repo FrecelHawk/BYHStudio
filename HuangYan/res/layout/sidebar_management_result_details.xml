@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/lay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp" >
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/checked_y" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="3dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img1"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/title_red" />
+
+                <View
+                    android:id="@+id/view11"
+                    android:layout_width="3dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/view1"
+                    android:layout_centerHorizontal="true"
+                    android:background="#cdcdcd" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lay1"
+                android:text="提现申请已提交，等待客服处理"
+                android:textColor="@color/title_red"
+                android:textSize="14dp" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lay1"
+                android:layout_below="@+id/text"
+                android:layout_marginTop="5dp"
+                android:text="2015-08-20  12.30"
+                android:textColor="#A6A6A6"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/lay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp" >
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shield2" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="3dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img2"
+                    android:layout_centerHorizontal="true"
+                    android:background="#cdcdcd" />
+
+                <View
+                    android:id="@+id/view22"
+                    android:layout_width="3dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/view2"
+                    android:layout_centerHorizontal="true"
+                    android:background="#cdcdcd" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lay2"
+                android:text="客服审核中"
+                android:layout_marginTop="5dp"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/money2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img3"
+                android:text="到帐成功"
+                android:layout_marginTop="5dp"
+                android:textColor="#121212"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

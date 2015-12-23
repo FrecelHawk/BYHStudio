@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/desktop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/scanner"
+                style="@style/CommonItemLayoutStyle"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/more_erwei_icon"
+                    android:text="扫一扫" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dissident"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/more_fk_icon"
+                    android:text="意见反馈" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/update"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/more_sx_icon"
+                    android:text="版本更新" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aboutus"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/more_aboutus_icon"
+                    android:text="关于我们" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/clearcache"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/more_del_icon"
+                    android:text="清除缓存" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/enterpriseuser"
+                style="@style/CommonItemLayoutStyle"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/more_del_icon"
+                    android:text="企业用户" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/acquiescecity"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/more_dw_icon"
+                    android:text="默认城市" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telephonenamber"
+                style="@style/CommonItemLayoutStyle" >
+
+                <TextView
+                    style="@style/CommonItemStyle"
+                    android:drawableLeft="@drawable/more_phone_icon"
+                    android:text="客服电话  : 4008302727" />
+
+                <TextView
+                    android:id="@+id/companytelt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/ic_arrow06" />
+            </LinearLayout>
+
+            <!--
+            <RelativeLayout
+                android:id="@+id/"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/telephoneimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/telephoneimage"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="客服电话"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/companytelt"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+            -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

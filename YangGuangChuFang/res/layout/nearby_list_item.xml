@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_list_item_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <!-- 图片   第一纵列 -->
+
+    <ImageView
+        android:id="@+id/nearby_list_item_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_load_defalut" />
+
+    <ImageView
+        android:id="@+id/highest_quality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:src="@drawable/high_quality_btn_touch" />
+
+    <!-- 第二纵列 -->
+    <!-- 店名 或食堂 -->
+
+    <TextView
+        android:id="@+id/nearby_list_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nearby_list_item_icon"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/nearby_list_item_icon"
+        android:singleLine="true"
+        android:text="洞庭鱼头王"
+        android:textColor="#6A6A6A"
+        android:textSize="15dp" />
+
+    <RelativeLayout
+        android:id="@+id/ll_cecommendation_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nearby_list_item_name"
+        android:layout_below="@id/nearby_list_item_name"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <TextView
+            android:id="@+id/tev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="推荐度: "
+            android:textColor="#959595"
+            android:textSize="14dp" />
+
+        <RatingBar
+            android:id="@+id/nearby_list_item_ratetext"
+            style="@style/SmallRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tev" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nearby_list_item_mess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/nearby_list_item_name"
+        android:layout_below="@+id/ll_cecommendation_level"
+        android:paddingTop="2dp"
+        android:textColor="#959595"
+        android:drawableLeft="@drawable/ic_my_collection_food"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/nearby_list_item_icon"
+        android:layout_alignLeft="@id/nearby_list_item_name"
+        >
+
+        <TextView
+            android:id="@+id/nearby_list_item_themetext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_my_collection_map"
+            android:textColor="#959595"
+            android:textSize="14dp" />
+
+        <!-- <ImageView
+            android:id="@+id/nearby_list_item_distanceIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/distance_image" /> -->
+
+        <TextView
+            android:id="@+id/nearby_list_item_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:textColor="#959595"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+</RelativeLayout>

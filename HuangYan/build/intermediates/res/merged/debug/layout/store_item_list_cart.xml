@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <LinearLayout
+            android:id="@+id/lay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp" >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/find_cartoon1" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/lay2"
+            android:layout_width="fill_parent"
+            android:layout_height="94dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/lay1"
+            android:orientation="vertical"
+            android:paddingTop="11dp" >
+
+            <TextView
+                android:id="@+id/ming"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="凰燕 马来西亚进口正品 7A顶级头期官燕龙头天盏"
+                android:textColor="#121212"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:id="@+id/jia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ming"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="商城价:￥"
+                    android:textColor="#121212"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="48.00"
+                    android:textColor="#121212"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true" >
+
+                <ImageView
+                    android:id="@+id/text1"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/decrease"
+                    android:gravity="center" />
+
+                <EditText
+                    android:id="@+id/edt"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/text1"
+                    android:background="@drawable/shu"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="13dp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/edt"
+                    android:background="@drawable/increase"
+                    android:gravity="center"
+                    android:text="＋" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:src="@drawable/del" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小计:￥"
+                android:textColor="#F15353"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="96.00"
+                android:textColor="#F15353"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+
+</LinearLayout>
+<!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/layout/store_item_list_cart.xml -->

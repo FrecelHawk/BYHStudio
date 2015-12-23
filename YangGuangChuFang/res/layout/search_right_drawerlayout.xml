@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 搜索之右抽屉，筛选 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/right_drawer"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="#dfdfdf"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="地市:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_bt_city"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_selector"
+            android:ems="5"
+            android:singleLine="true"
+            android:text="请选择"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginLeft="1.0px"
+        android:layout_marginRight="1.0px"
+        android:background="#ffc0c3c4" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="区县:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_bt_quxian"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_selector"
+            android:ems="5"
+            android:singleLine="true"
+            android:text="请选择"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginLeft="1.0px"
+        android:layout_marginRight="1.0px"
+        android:background="#ffc0c3c4" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="地标:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_bt_dibiao"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_selector"
+            android:ems="5"
+            android:singleLine="true"
+            android:text="请选择"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginLeft="1.0px"
+        android:layout_marginRight="1.0px"
+        android:background="#ffc0c3c4" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="分类:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_bt_fenlei"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_selector"
+            android:ems="5"
+            android:singleLine="true"
+            android:text="请选择"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginLeft="1.0px"
+        android:layout_marginRight="1.0px"
+        android:background="#ffc0c3c4" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="7.0sp"
+            android:text="菜系:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_bt_caixi"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_selector"
+            android:ems="5"
+            android:singleLine="true"
+            android:text="请选择"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginLeft="1.0px"
+        android:layout_marginRight="1.0px"
+        android:background="#ffc0c3c4" />
+
+    <Button
+        android:id="@+id/search_bt_sure"
+        android:layout_width="150dp"
+        android:layout_height="55sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector"
+        android:singleLine="true"
+        android:text="确定"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

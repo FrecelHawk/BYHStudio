@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom" >
+
+    <com.xyt.ygcf.huamai.PlayView
+        android:id="@+id/id_play_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+    </com.xyt.ygcf.huamai.PlayView>
+
+    <RelativeLayout
+        android:id="@+id/leftbar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/left_line_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="#00000000" />
+
+    <ImageView
+        android:id="@+id/record_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="25dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/record_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@id/record_dot"
+        android:text="00:00:00"
+        android:textColor="#ededed"
+        android:visibility="gone" />
+
+<!-- 
+    <Button
+        android:id="@+id/id_btn_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="录像" />
+
+    <Button
+        android:id="@+id/id_btn_openlisten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="打开听" />
+
+    <Button
+        android:id="@+id/id_btn_closelisten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/id_btn_openlisten"
+        android:layout_marginTop="16dp"
+        android:text="关闭听" />
+
+    <Button
+        android:id="@+id/id_btn_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/id_btn_record"
+        android:layout_marginTop="16dp"
+        android:text="拍照" />
+
+    <Button
+        android:id="@+id/id_btn_opentalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/id_btn_closelisten"
+        android:layout_marginTop="16dp"
+        android:text="打开说" />
+
+    <Button
+        android:id="@+id/id_btn_closetalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/id_btn_opentalk"
+        android:layout_marginTop="16dp"
+        android:text="关闭说" />
+
+    <Button
+        android:id="@+id/id_btn_arming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/id_btn_capture"
+        android:layout_marginTop="16dp"
+        android:text="布防" />
+
+    <Button
+        android:id="@+id/id_btn_disarming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/id_btn_arming"
+        android:layout_marginTop="16dp"
+        android:text="撤防" />
+ --> 
+</RelativeLayout>

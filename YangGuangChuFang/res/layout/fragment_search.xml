@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/desktop"
+        layout="@layout/desktop" />
+
+    <!-- 主页面 -->
+
+    <LinearLayout
+        android:id="@+id/content_frame22"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            android:id="@+id/bt_clear"
+            style="@style/MyButtonStyle"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/btn_common_selector"
+            android:text="清除历史记录"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/content_frame22"
+        android:layout_below="@id/desktop"
+        android:orientation="vertical" >
+
+        <!-- 搜索框 -->
+
+        <include layout="@layout/search_input_sure" />
+
+        <ListView
+            android:id="@+id/LvKeyWord"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:cacheColorHint="@color/white"
+            android:divider="#e2e2e2"
+            android:dividerHeight="1dp" >
+        </ListView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#e2e2e2" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baiyuhui.huangyan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <application
+        android:allowBackup="true"
+        android:name="com.baiyuhui.huangyan.application.HomeInterfaceApplication"
+        android:icon="@drawable/log"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.baiyuhui.huangyan.activity.SplashActivity"
+            android:configChanges="keyboard|screenSize|orientation|layoutDirection"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55e545bc67e58e5174001cd5" />
+
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <!-- 腾讯SSO授权的Activity注册 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100424468" />   
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 微信回调activity -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.baiyuhui.huangyan.activity.MainTabActivity"
+            android:configChanges="keyboard|screenSize|orientation|layoutDirection"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.GuideActivity" >
+        </activity>
+        <activity
+            android:name="com.baiyuhui.huangyan.activity.ShareFragment"
+            android:configChanges="keyboard|screenSize|orientation|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeNewsActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeVideoActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeSchoolActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeBranchActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeBenefitActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeNewsDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeBenefitDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeSchoolDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeVideoDetails" android:hardwareAccelerated="true" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.HomeVideopaly" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreDetailsActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreReviews" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreInventory" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreCart" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreCartSettlement" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreCheckstand" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreDistributionActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreSiteActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreCompileSiteActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.StoreInvoiceActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindCircleClassify" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindStoryDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindCirclePosted" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindCircleDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindClassifyAboutDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindAntifakeActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindCircleActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindNewbieActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindPrepActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindRadioActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.FindStoryActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarInformationActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarCouponActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarIndentActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarPasswordActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarInventoryActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarRecordActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarExperienceActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementWithdraw" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementRecharge" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementNotes" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementIncome" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementBank" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementAddBank" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarIndentDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementBankName" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarManagementResultDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.SidebarExperienceContent" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonInformActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonInformRevert" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonInfromIogistics" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonDividend" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonRecommend" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonRecommendDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonRevertDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonIogisticsDetails" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.PersonMember" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.LoginActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.CompanyActivity" >
+        </activity>
+        <activity android:name="com.baiyuhui.huangyan.activity.RegisterActivity" >
+        </activity>
+        
+        
+        
+        
+    </application>
+
+</manifest>

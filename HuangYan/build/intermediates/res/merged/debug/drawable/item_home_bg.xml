@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:state_checked="true" android:drawable="@drawable/ic_home1" />
+    <item android:drawable="@drawable/ic_home"/>
+    
+</selector><!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/drawable/item_home_bg.xml -->

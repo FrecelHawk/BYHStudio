@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1-89d055219442125342f5905a3b6811df4366841c.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\android-support-v4-88cd747a058c76c331f41386ecc6a3a1fe6fc1cb.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\xUtils-2.6.13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="149586602e581f306ccc6fe813a60d7b956252d9">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\xUtils-2.6.13-3ccdac4c315a32de81e5648caa13e9f58780db90.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b651be701cb256e3972e7c5a07119f26bb7b44a4">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2-2a89ec565ded683a15088f938edeab1e1ce3b6d9.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_1-0421ba582cb0de2a5968d2d9e5b04577589cc558.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_tencentWB_1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="328c5351cae13f2ab29450d22b6c02d0ac88a855">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_1-35e479ab85ad2e4c2a7b6df01ff47ba36677f719.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4688dc44ccef22b7f057301ee6abbe187a8d35ea">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\umeng_social_sdk-f91a553dd115afa0dfb3426828733a4fe48b7a58.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a6eee0ece63ba5e74411057d09eda1a5a01ca940">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_Sina-a4c02789e8eb15c31dc9a76e526bbfeb515a1efe.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_tencentWB_3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ffa8f4a76d210b0e34c255891e4d7478faf7b918">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_3-9fe2795732b9daa10b58c31947212b841a8182fe.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_2-2d82e8e0f597d22011e40fc3af71cb0562542fde.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\gradle-wrapper.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e614e3b2edc63a9cc423437dea087c91962254f5">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\gradle-wrapper-7d79ebf28a838faa3b344760e7e33488455afacf.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\universal-image-loader-1.9.3-with-sources.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="03e3948d42b8d78961a092a184af66bd86da42e6">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-with-sources-8756bfe8dee2c38d677921b7ffde02daed6a72fd.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="931ab461b91c2a2fd5c697e7f622cdca8c2b3ac5">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3-caf0f8c8276f9e5278712af56cd5cfd158b41e44.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\gson-2.2.4-9cbd17c2b41eecd22b2868244e5e6c9fecc106ad.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\SocialSDK_tencentWB_2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6f744074067eb201171c9c8ff1ca45ed821a76a8">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_2-0332f5539b7f716744ea82de08efa661ab1f7dfd.jar" />
+    </item>
+    <item
+        jar="C:\ecpliseWork\byh\HuangYan\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="C:\ecpliseWork\byh\HuangYan\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-be0f72d569f41a211572608cfe2f77d06a6017a7.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head" />
+
+  <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp" >
+
+        <ImageView
+            android:id="@+id/school_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/xuetang" />
+
+        <LinearLayout
+            android:id="@+id/school_dot_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+             >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.baiyuhui.huangyan.views.SingleLayoutListView
+        android:id="@+id/school_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+    </com.baiyuhui.huangyan.views.SingleLayoutListView>
+
+</LinearLayout><!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/layout/home_school.xml -->

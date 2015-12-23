@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_my_input"
+    android:orientation="horizontal"
+    android:padding="2dp" >
+
+    <!-- android:background="@drawable/tab_footer_bg1" -->
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:textColor="@color/datails_text_color"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/quality"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:textColor="@color/datails_text_color"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/food_from"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3.0"
+        android:gravity="center"
+        android:textColor="@color/datails_text_color"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/food_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:textColor="@color/datails_text_color"
+        android:textSize="14dp" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity" >
+
+    <include
+        android:id="@+id/top_layout"
+        layout="@layout/main_head" />
+
+    <LinearLayout
+        android:id="@+id/ll_conn_networt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top_layout"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/fragment_home"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.baiyuhui.huangyan.fragment.HomeFragment" />
+
+        <fragment
+            android:id="@+id/fragment_store"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.baiyuhui.huangyan.fragment.StoreFragment" />
+
+        <fragment
+            android:id="@+id/fragment_find"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.baiyuhui.huangyan.fragment.FindFragment" />
+
+        <fragment
+            android:id="@+id/fragment_person"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            class="com.baiyuhui.huangyan.fragment.PersonFragment" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#cacaca" />
+
+        <com.baiyuhui.huangyan.view.FragmentIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#f1f1f1"
+            android:paddingBottom="5dp"
+            android:paddingTop="7dp" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/ecpliseWork/byh/HuangYan/res/layout/activity_main.xml -->

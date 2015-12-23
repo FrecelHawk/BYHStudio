@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+     
+     <include layout="@layout/desktop"/>
+    <!-- 地图显示 -->
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/nearby_mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+       
+         />
+    <!-- 列表显示 -->
+    
+    
+    
+    <LinearLayout android:id="@+id/nearby_listData_parent"
+         android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:visibility="gone"
+        android:orientation="vertical"
+       >
+        
+        <LinearLayout
+        android:id="@+id/brand_filtrate_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/city_filtration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:drawableRight="@drawable/btn_arrows_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="按区筛选"
+            android:textColor="#565656" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC" />
+
+        <TextView
+            android:id="@+id/cate_filtration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:drawableRight="@drawable/btn_arrows_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="美食分类"
+            android:textColor="#565656" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC" />
+
+        <TextView
+            android:id="@+id/sort_filtration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:drawableRight="@drawable/btn_arrows_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="选择排序"
+            android:textColor="#565656" />
+    </LinearLayout>
+        
+        <include layout="@layout/public_seacher_list"/>        
+        
+        
+        
+    </LinearLayout>
+
+    
+
+</LinearLayout>

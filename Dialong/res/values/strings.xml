@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Dialong</string>
+
+    <string name="title">title</string>
+
+    <string name="this_is_a_test_message">This is a test message</string>
+
+</resources>

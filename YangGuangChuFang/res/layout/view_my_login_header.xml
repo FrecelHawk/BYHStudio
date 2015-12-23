@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_my_avar"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.xyt.ygcf.widget.CircleImageView
+        xmlns:myxmlns="http://schemas.android.com/apk/res/com.xyt.yangguangchufang"
+        android:id="@+id/fragment_my_image_user"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        myxmlns:border_width="@dimen/circle_width"
+        myxmlns:border_color="@color/f2f2f2"
+        android:src="@drawable/ic_my_avar_unlogin" />
+
+    <TextView
+        android:id="@+id/fragment_my_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:text="名字很难想"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/fragment_my_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@null"
+        android:text="长居地："
+        android:textColor="#888888"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</LinearLayout>
